@@ -1,4 +1,4 @@
-	CREATE PROCEDURE sp_ebiz_select_prueba
+	CREATE PROCEDURE sp_jpn_select_prueba
 				 @id INT,
 				 @tabla varchar(50)
                   
