@@ -1,0 +1,9 @@
+<MensajesServicios>
+	<MensajeServicio>
+	   <Servicio></Servicio>
+	   <RucCliente></RucCliente>
+	   <Estado></Estado>
+	   <CodigoError></CodigoError>
+	   <DescripcionError></DescripcionError>
+	</MensajeServicio>
+</MensajesServicios>

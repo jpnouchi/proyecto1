@@ -1,0 +1,10 @@
+<MensajesErrores>
+	<MensajeError>
+	   <CodigoAccion> </CodigoAccion>
+	   <RucSociedad></RucSociedad>
+	   <NumeroDocumento></NumeroDocumento>
+	   <Proveedor></Proveedor>
+	   <CodigoError></CodigoError>
+	   <DescripcionError></DescripcionError>
+	</MensajeError>
+</MensajesErrores>
