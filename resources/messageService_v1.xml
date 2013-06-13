@@ -1,9 +1,13 @@
 <MensajesServicios>
-	<MensajeServicio>
-	   <Servicio></Servicio>
-	   <RucCliente></RucCliente>
-	   <Estado></Estado>
-	   <CodigoError></CodigoError>
-	   <DescripcionError></DescripcionError>
+	  <MensajeServicio>
+		   <Servicio></Servicio>
+		   <Cliente></Cliente>
+		   <Estado></Estado>
+		   <DescripcionError></DescripcionError>
+		   <Integracion></Integracion>
+	  	  
+	   
+	   
+	   
 	</MensajeServicio>
 </MensajesServicios>
