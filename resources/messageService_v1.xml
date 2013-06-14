@@ -3,11 +3,11 @@
 		   <Servicio></Servicio>
 		   <Cliente></Cliente>
 		   <Estado></Estado>
-		   <DescripcionError></DescripcionError>
+		   <Descripcion></Descripcion>
 		   <Integracion></Integracion>
-	  	  
-	   
-	   
-	   
 	</MensajeServicio>
 </MensajesServicios>
+
+
+
+

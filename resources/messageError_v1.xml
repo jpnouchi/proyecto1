@@ -7,9 +7,10 @@
 	   <RucProveedor></RucProveedor>
 	   <CodigoError></CodigoError>
 	   <Descripcion></Descripcion>
-	   <FechaRegistro></FechaRegistro>
-	   <Integracion></Integracion >
-   
-
+	   <FechaError></FechaError>
+	   <Integracion></Integracion>
 	</MensajeError>
 </MensajesErrores>	
+
+
+
