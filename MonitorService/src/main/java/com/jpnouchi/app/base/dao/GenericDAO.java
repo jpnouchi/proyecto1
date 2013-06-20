@@ -1,4 +1,4 @@
-package com.jpnouchi.app.base.model;
+package com.jpnouchi.app.base.dao;
 
 import com.jpnouchi.app.base.util.Pagination;
 
