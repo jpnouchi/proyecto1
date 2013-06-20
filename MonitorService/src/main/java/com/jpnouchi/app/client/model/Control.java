@@ -1,5 +1,7 @@
 package com.jpnouchi.app.client.model;
 
+import com.jpnouchi.app.base.model.BaseObject;
+
 import java.util.Date;
 
 /**
@@ -9,7 +11,7 @@ import java.util.Date;
  * Time: 12:10 AM
  * To change this template use File | Settings | File Templates.
  */
-public class Control {
+public class Control extends BaseObject{
     private int idControl;
     private int flagProceso;
     private String tipo;
