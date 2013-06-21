@@ -1,6 +1,11 @@
 package org.jpnouchi.MonitorCliente.error.dao;
 
 import org.jpnouchi.MonitorCliente.base.dao.GenericDAO;
+import org.jpnouchi.MonitorCliente.error.model.Control;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
+
+import java.util.List;
 
 /**
  * Created with IntelliJ IDEA.
@@ -9,6 +14,12 @@ import org.jpnouchi.MonitorCliente.base.dao.GenericDAO;
  * Time: 15:04
  * To change this template use File | Settings | File Templates.
  */
-public interface ControlDAO extends GenericDAO<ControlDAO> {
+//@Component
+    @Repository
+public interface ControlDAO  {
 
+
+    List<Control> getAll();
+
+    void update(Control control);
 }

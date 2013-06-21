@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD MApper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="org.jpnouchi.MonitorCliente.error.dao.ControlDAO">
+
+    <resultMap id="resultControl" type="control">
+        <result property="idControl" column="IDCONTROL"/>
+        <result property="idError" column="IDERROR"/>
+        <result property="rucProveedor" column="RUCPROVEEDOR"/>
+        <result property="numeroDocumento" column="NUMERODOCUMENTO"/>
+        <result property="descripcionError" column="DESCRIPCIONERROR"/>
+        <result property="rucSociedad" column="RUCSOCIEDAD"/>
+        <result property="codigoAccion" column="CODIGOACCION"/>
+        <result property="flagProcesado" column="FLAGPROCESADO"/>
+        <!--result property="fechaError" column="FECHAERROR"/-->
+    </resultMap>
+
+
+    <select id="getAll"  fetchSize="10"  resultMap="resultControl">
+        select	IDCONTROL
+            ,	IDERROR
+            ,	RUCPROVEEDOR
+            ,	NUMERODOCUMENTO
+            ,	DESCRIPCIONERROR
+            ,	RUCSOCIEDAD
+            ,	CODIGOACCION
+            ,	FLAGPROCESADO
+            ,	FECHAERROR
+        from	CONTROL
+    </select>
+
+    <update id="update" parameterType="control">
+        UPDATE CONTROL
+        SET
+        FLAGPROCESADO = #{flagProcesado,jdbcType=VARCHAR}
+        where IDCONTROL = #{idControl,jdbcType=INTEGER}
+    </update>
+
+</mapper>

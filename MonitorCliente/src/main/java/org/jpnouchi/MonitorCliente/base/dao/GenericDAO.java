@@ -11,9 +11,9 @@ import java.util.List;
  * To change this template use File | Settings | File Templates.
  */
 public interface GenericDAO <T> {
-    public T get(int id);
+    //public T get(int id);
     public List<T> getAll();
-    public void save(T t);
+    //public void save(T t);
     public void update(T t);
-    public void delete(T t);
+    //public void delete(T t);
 }
